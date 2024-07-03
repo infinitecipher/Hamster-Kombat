@@ -6,9 +6,9 @@
 // @description  12.06.2024, 21:43:52
 // @grant        none
 // @icon         https://hamsterkombat.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
-// @updateURL    https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
-// @homepage     https://github.com/mudachyo/Hamster-Kombat
+// @downloadURL  https://github.com/infinitecipher/Hamster-Kombat/blob/jhovel-hamster/hamster-autoclicker.user.js
+// @updateURL    https://github.com/infinitecipher/Hamster-Kombat/blob/jhovel-hamster/hamster-autoclicker.user.js
+// @homepage     https://github.com/infinitecipher/Hamster-Kombat
 // ==/UserScript==
 
 (function () {
@@ -43,7 +43,7 @@
   console.log(`${logPrefix}Starting`, styles.starting);
   console.log(`${logPrefix}Created by https://t.me/mudachyo`, styles.starting);
   console.log(
-    `${logPrefix}Github https://github.com/mudachyo/Hamster-Kombat`,
+    `${logPrefix}Github https://github.com/infinitecipher/Hamster-Kombat`,
     styles.starting
   );
 
