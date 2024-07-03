@@ -6,9 +6,9 @@
 // @description  12.06.2024, 21:43:52
 // @grant        none
 // @icon         https://hamsterkombat.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/infinitecipher/Hamster-Kombat/blob/jhovel-hamster/hamster-autoclicker.user.js
-// @updateURL    https://github.com/infinitecipher/Hamster-Kombat/blob/jhovel-hamster/hamster-autoclicker.user.js
-// @homepage     https://github.com/infinitecipher/Hamster-Kombat
+// @downloadURL  https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
+// @updateURL    https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
+// @homepage     https://github.com/mudachyo/Hamster-Kombat
 // ==/UserScript==
 
 (function () {
@@ -43,7 +43,7 @@
   console.log(`${logPrefix}Starting`, styles.starting);
   console.log(`${logPrefix}Created by https://t.me/mudachyo`, styles.starting);
   console.log(
-    `${logPrefix}Github https://github.com/infinitecipher/Hamster-Kombat`,
+    `${logPrefix}Github https://github.com/mudachyo/Hamster-Kombat`,
     styles.starting
   );
 
@@ -52,8 +52,8 @@
     minEnergy: 25, // Минимальная энергия, необходимая для нажатия на монету
     minInterval: 30, // Минимальный интервал между кликами в миллисекундах
     maxInterval: 100, // Максимальный интервал между кликами в миллисекундах
-    minEnergyRefillDelay: 40000, // Минимальная задержка в миллисекундах для пополнения энергии (40 секунд)
-    maxEnergyRefillDelay: 60000, // Максимальная задержка в миллисекундах для пополнения энергии (60 секунд)
+    minEnergyRefillDelay: 60000, // Минимальная задержка в миллисекундах для пополнения энергии (60 секунд)
+    maxEnergyRefillDelay: 180000, // Максимальная задержка в миллисекундах для пополнения энергии (180 секунд)
     maxRetries: 5, // Максимальное количество попыток перед перезагрузкой страницы
   };
 
